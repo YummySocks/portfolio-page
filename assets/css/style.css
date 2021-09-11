@@ -8,19 +8,22 @@ body{
 header {
     display: flex;
     background-color:grey;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 1%;
 }
 
 header h1 {
     background-color: sandybrown;
     font-size: x-large;
     font-weight: bolder;
-    padding: 1% 5%;
-    justify-content:
+    padding: 1% 0.5% 0.5% 5%;
 }
 
 header nav {
     font-size: x-large;
-    display: inline;
 }
 
 
@@ -32,6 +35,8 @@ header nav {
     background-position: center;
     position: relative;
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .hero-image .hero-text{
     text-align: center;
@@ -40,7 +45,5 @@ header nav {
     font-size: 30px;
     background-color: rgba(128, 128, 128, 0.432);
     padding: 0 5%;
-    align-self: flex-end;
-    justify-self: flex-end;
 }
 
