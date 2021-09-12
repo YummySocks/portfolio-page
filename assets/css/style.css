@@ -4,6 +4,11 @@ body{
     width: 100%;
 }
 
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 header {
     display: flex;
     background-color:grey;
@@ -16,8 +21,6 @@ header {
 
 header h1 {
     background-color: sandybrown;
-    font-size: x-large;
-    font-weight: bolder;
     padding: 1% 0.5% 0.5% 5%;
 }
 
@@ -25,10 +28,15 @@ header nav {
     font-size: x-large;
 }
 
+article a{
+    display: flex;
+    flex-flow: row wrap;
+}
+
 
 .hero-image{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/galaxy-image.jfif");
-    height: 40%;
+    height: 35%;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -45,5 +53,11 @@ header nav {
     font-size: 30px;
     background-color: rgba(128, 128, 128, 0.432);
     padding: 0 5%;
+}
+
+.tile{
+    height: 30vh;
+    width: 40vh;
+    padding: 1%;
 }
 
