@@ -12,11 +12,16 @@ h1 {
 header {
     display: flex;
     background-color:grey;
-    flex-direction: row;
-    align-content: flex-end;
     justify-content: space-between;
     align-items: flex-end;
     padding-right: 1%;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
 }
 
 header h1 {
