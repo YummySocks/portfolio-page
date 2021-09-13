@@ -13,7 +13,7 @@ header {
     display: flex;
     background-color:grey;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     padding-right: 1%;
     color: white;
 }
@@ -31,6 +31,11 @@ header h1 {
 
 header nav {
     font-size: x-large;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 
