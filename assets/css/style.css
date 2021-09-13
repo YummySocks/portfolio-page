@@ -28,11 +28,6 @@ header nav {
     font-size: x-large;
 }
 
-article a{
-    display: flex;
-    flex-flow: row wrap;
-}
-
 
 .hero-image{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/galaxy-image.jfif");
@@ -53,6 +48,12 @@ article a{
     font-size: 30px;
     background-color: rgba(128, 128, 128, 0.432);
     padding: 0 5%;
+}
+
+.big-tile{
+    padding: 0 10vh;
+    height: 80vh;
+    width: 80vh;
 }
 
 .tile{
