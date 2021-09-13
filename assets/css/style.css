@@ -50,6 +50,8 @@ section .first-row
     display: flex;
     flex-basis: 80%;
     padding: 5px 0;
+    justify-content: space-between;
+    max-width: 920px;
 }
 
 .section-title {
