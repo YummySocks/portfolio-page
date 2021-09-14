@@ -34,8 +34,6 @@ nav ul {
     max-width: 100%;
 }
 
-
-
 footer{
     width: 100%;
 }
@@ -45,7 +43,8 @@ footer ul {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    flex-basis: 50%;
+    flex: 10%;
+    font-size: x-large;
 }
 
 header h1 {
@@ -125,12 +124,13 @@ section .first-row
 .big-tile{
     padding: 0px 0 10px 0;
     height: 500px;
-    width: 900px;
+    max-width: 900px;
     background-image: url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
     background-size: cover;
     border: solid turquoise;
+    flex-basis: 80%;
 }
 
 .tile{
@@ -143,6 +143,7 @@ section .first-row
     background-size: cover;
     align-items: flex-end;
     display: flex;
+    padding-bottom: 10px;
 }
 
 .cards-within {
