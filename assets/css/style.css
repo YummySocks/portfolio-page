@@ -49,7 +49,7 @@ footer ul {
 
 header h1 {
     background-color: turquoise;
-    padding: 1% 0.5% 0.5% 5%;
+    padding-left: 30px;
     color: grey;
 }
 
@@ -131,6 +131,7 @@ section .first-row
     background-size: cover;
     border: solid turquoise;
     flex-basis: 80%;
+
 }
 
 .big-tile:hover {
