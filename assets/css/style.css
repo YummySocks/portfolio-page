@@ -25,11 +25,22 @@ header {
     height: 60px;
 }
 
-nav ul
-, footer ul {
+nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+}
+
+footer{
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 50%;
 }
 
 header h1 {
@@ -101,12 +112,13 @@ section .first-row
 
 .big-tile{
     padding: 10px;
-   height: 500px;
+    height: 500px;
     width: 900px;
     background-image: url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
     background-size: cover;
+    border: solid teal;
 }
 
 .tile{
