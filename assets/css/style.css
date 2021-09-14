@@ -125,7 +125,7 @@ section .first-row
     padding: 0px 0 10px 0;
     height: 500px;
     max-width: 900px;
-    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/trippy-art.png");
+    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
     background-size: cover;
@@ -161,7 +161,7 @@ section .first-row
 }
 
 #laptop {
-    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/laptop-colorful.jpg");
+    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/laptop-colorful.jpg");
 }
 
 #laptop:hover {
@@ -169,7 +169,7 @@ section .first-row
 }
 
 #road {
-    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/abbey-road.jpg"); 
+    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/abbey-road.jpg"); 
 }
 
 #road:hover {
@@ -177,7 +177,7 @@ section .first-row
 }
 
 #soup {
-    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/chicken-noodle.jpg");
+    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/chicken-noodle.jpg");
 }
 
 #soup:hover{
@@ -185,7 +185,7 @@ section .first-row
 }
 
 #waves {
-    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/waves-crash.jpg");
+    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/waves-crash.jpg");
 }
 
 #waves:hover {
