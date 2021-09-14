@@ -25,7 +25,8 @@ header {
     height: 60px;
 }
 
-nav ul{
+nav ul
+, footer ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
@@ -110,7 +111,7 @@ section .first-row
 
 .tile{
     border: solid teal;
-    width: 400px;
+    width: 450px;
     height: 150px;
     display: flex;
     flex-basis: 80%;
@@ -124,6 +125,10 @@ section .first-row
     background:rgb(250, 250, 250);
 }
 
+.footer-list {
+    display: flex;
+}
+
 #laptop {
     background-image: url("../images/laptop-colorful.jpg");
     
@@ -131,9 +136,7 @@ section .first-row
 }
 
 #road {
-    background-image: url("../images/abbey-road.jpg");
-    
-    
+    background-image: url("../images/abbey-road.jpg"); 
 }
 
 #soup {
