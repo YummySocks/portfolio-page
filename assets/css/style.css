@@ -25,7 +25,7 @@ header {
     height: 60px;
 }
 
-nav ul,{
+nav ul{
     display: flex;
     justify-content: space-between;
     min-width: 300px;
