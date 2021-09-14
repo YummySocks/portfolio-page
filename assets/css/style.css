@@ -125,12 +125,16 @@ section .first-row
     padding: 0px 0 10px 0;
     height: 500px;
     max-width: 900px;
-    background-image: url("../images/trippy-art.png");
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
     background-size: cover;
     border: solid turquoise;
     flex-basis: 80%;
+}
+
+.big-tile:hover {
+    background-image: url("../images/trippy-art.png");
 }
 
 .tile{
@@ -157,17 +161,33 @@ section .first-row
 }
 
 #laptop {
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/laptop-colorful.jpg");
+}
+
+#laptop:hover {
     background-image: url("../images/laptop-colorful.jpg");
 }
 
 #road {
-    background-image: url("../images/abbey-road.jpg"); 
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/abbey-road.jpg"); 
+}
+
+#road:hover {
+    background-image: url("../images/abbey-road.jpg");;
 }
 
 #soup {
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/chicken-noodle.jpg");
+}
+
+#soup:hover{
     background-image: url("../images/chicken-noodle.jpg");
 }
 
 #waves {
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/waves-crash.jpg");
+}
+
+#waves:hover {
     background-image: url("../images/waves-crash.jpg");
 }
