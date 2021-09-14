@@ -66,6 +66,12 @@ nav a{
     padding: 15px;
 }
 
+footer a {
+    font-weight: bolder;
+    color: grey;
+    text-decoration: black underline;
+}
+
 section .first-row
 , section .second-row {
     display: flex;
