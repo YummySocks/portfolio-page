@@ -1,4 +1,6 @@
-
+html {
+    width: 100%;
+}
 
 body{
     line-height: 1.5;
@@ -31,6 +33,8 @@ nav ul {
     min-width: 300px;
 }
 
+
+
 footer{
     width: 100%;
 }
@@ -44,17 +48,22 @@ footer ul {
 }
 
 header h1 {
-    background-color: sandybrown;
+    background-color: turquoise;
     padding: 1% 0.5% 0.5% 5%;
+    color: grey;
 }
 
 header nav {
     font-size: x-large;
+    display: flex;
 }
 
 nav a{
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bolder;
+    color: turquoise;
+    display: flex;
+    padding: 15px;
 }
 
 section .first-row
@@ -100,10 +109,11 @@ section .first-row
 .hero-image .hero-text{
     text-align: center;
     position: absolute;
-    color: rgb(250, 250, 250);
+    color: grey;
     font-size: 30px;
-    background-color: rgba(128, 128, 128, 0.432);
+    background-color: turquoise;
     padding: 0 5%;
+    margin: 0 20px;
 }
 
 .my-work {
@@ -111,18 +121,18 @@ section .first-row
 }
 
 .big-tile{
-    padding: 10px;
+    padding: 0px 0 10px 0;
     height: 500px;
     width: 900px;
     background-image: url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
     background-size: cover;
-    border: solid teal;
+    border: solid turquoise;
 }
 
 .tile{
-    border: solid teal;
+    border: solid turquoise;
     width: 450px;
     height: 150px;
     display: flex;
@@ -134,17 +144,17 @@ section .first-row
 }
 
 .cards-within {
-    background:rgb(250, 250, 250);
+    background: turquoise;
+    text-decoration: none;
+    color: darkslategray;
 }
 
-.footer-list {
+.footer {
     display: flex;
 }
 
 #laptop {
     background-image: url("../images/laptop-colorful.jpg");
-    
-    
 }
 
 #road {
@@ -153,12 +163,8 @@ section .first-row
 
 #soup {
     background-image: url("../images/chicken-noodle.jpg");
-    
-    
 }
 
 #waves {
     background-image: url("../images/waves-crash.jpg");
-    
-    
 }
