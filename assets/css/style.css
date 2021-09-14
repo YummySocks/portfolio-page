@@ -31,6 +31,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    max-width: 100%;
 }
 
 
@@ -104,6 +105,7 @@ section .first-row
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    padding-bottom: 20px;
 }
 
 .hero-image .hero-text{
