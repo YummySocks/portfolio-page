@@ -130,8 +130,8 @@ section .first-row
 .big-tile{
     padding: 0px 0 10px 0;
     height: 500px;
-    max-width: 900px;
-    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/trippy-art.png");
+    max-width: 62%;
+    background-image: url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
     background-size: cover;
