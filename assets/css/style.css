@@ -100,6 +100,11 @@ section .first-row
     flex-basis: 80%;
 }
 
+.notes img {
+    height: 220px;
+    padding-right: 50px;
+}
+
 .hero-image{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/galaxy-image.jfif");
     height: 35%;
@@ -129,8 +134,8 @@ section .first-row
 
 .big-tile{
     padding: 0px 0 10px 0;
-    height: 500px;
-    max-width: 62%;
+    height: 400px;
+    max-width: 900px;
     background-image: url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
