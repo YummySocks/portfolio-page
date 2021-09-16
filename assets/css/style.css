@@ -93,7 +93,7 @@ section .first-row
     display: flex;
 }
 /* sets sizing of images to the right of the work */
-.my-work div {
+.my-work section {
     flex-basis: 80%;
 }
 /* sets size of about me text */
@@ -228,5 +228,4 @@ section .first-row
     .footer ul {
         flex-direction: column;
     }
-
 }
