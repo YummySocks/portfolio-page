@@ -43,7 +43,9 @@
     color: darkslategray;
 }
 
-
+#me {
+    max-width: 90%;
+}
 /* img sources for each of the tiles. and hover effect*/
 #laptop {
     background-image: url("../images/laptop-colorful.jpg");
