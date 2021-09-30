@@ -1,5 +1,7 @@
 
-
+.nav-wrapper{
+    background-color: turquoise;
+}
 /* formatting for the larger tile and its shadow/text inside */
 .big-tile{
     width: 100%;
@@ -75,18 +77,3 @@
     background-image: url("../images/waves-crash.jpg");
 }
 /* added styling for when screen gets smaller*/
-@media only screen and (max-width: 992px) {
-    .big-tile {
-        height: 200px;
-        width: 450px;
-    }
-    
-    .first-row,
-    .second-row{
-        flex-direction: column;
-    }
-
-    .footer ul {
-        flex-direction: column;
-    }
-}
