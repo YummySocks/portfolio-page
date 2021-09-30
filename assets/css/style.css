@@ -1,148 +1,14 @@
-/* general colors and font style and spacing */
-html {
-    width: 100%;
-}
 
-body{
-    line-height: 1.5;
-    height: 100vh;
-    width: 100%;
-}
 
-h1 {
-    font-size: xx-large;
-    font-weight: bolder;
-}
-
-h2 {
-    font-size: 150%;
-}
-
-header {
-    display: flex;
-    background-color:grey;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 1%;
-    color: white;
-    height: 60px;
-}
-/* styling for the items on the left like about me contact me etc */
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    max-width: 100%;
-}
-
-footer{
-    width: 100%;
-}
-
-footer ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    flex: 10%;
-    font-size: x-large;
-}
-
-header h1 {
-    background-color: turquoise;
-    padding-left: 30px;
-    color: grey;
-}
-
-header nav {
-    font-size: x-large;
-    display: flex;
-}
-/* styling for header links */
-nav a{
-    text-decoration: underline;
-    font-weight: bolder;
-    color: turquoise;
-    display: flex;
-    padding: 15px;
-}
-/* styling for footer links */
-footer a {
-    font-weight: bolder;
-    color: grey;
-    text-decoration: black underline;
-}
-/* styling for the 2 rows beneath big tile */
-section .first-row
-, section .second-row {
-    display: flex;
-    flex-basis: 80%;
-    padding: 5px 0;
-    justify-content: space-between;
-    max-width: 920px;
-}
-/* styling for text on left bar of main content */
-.section-title {
-    border-right: 5px solid black;
-    margin: 10px;
-    padding: 10px;
-    flex-basis: 20%;
-}
-
-.notes {
-    display: flex;
-}
-/* sets sizing of images to the right of the work */
-.my-work section {
-    flex-basis: 80%;
-}
-/* sets size of about me text */
-.notes p{
-    flex-basis: 80%;
-}
-
-.notes img {
-    height: 220px;
-    padding-right: 50px;
-}
-/* styling for the banner image */
-.hero-image{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/galaxy-image.jfif");
-    height: 35%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-bottom: 20px;
-}
-/* styling for the text inside the banner image */
-.hero-image .hero-text{
-    text-align: center;
-    position: absolute;
-    color: grey;
-    font-size: 30px;
-    background-color: turquoise;
-    padding: 0 5%;
-    margin: 0 20px;
-}
-
-.my-work {
-    display: flex;
-}
 /* formatting for the larger tile and its shadow/text inside */
 .big-tile{
-    padding: 0px 0 10px 0;
+    width: 100%;
     height: 400px;
-    max-width: 900px;
     background-image: url("../images/trippy-art.png");
     display: flex;
     align-items: flex-end;
     background-size: cover;
     border: solid turquoise;
-    flex-basis: 80%;
     box-shadow: inset 400px 900px rgba(31, 95, 114, 0.747);
     transition: .5s;
 }
@@ -154,15 +20,13 @@ section .first-row
 /* formatting for the 4 mini tiles and the positioning of the text inside */
 .tile{
     border: solid turquoise;
-    width: 450px;
+    width: 100%;
     height: 200px;
     display: flex;
-    flex-basis: 80%;
     background-position: center;
     background-size: cover;
     align-items: flex-end;
     display: flex;
-    padding-bottom: 10px;
     box-shadow: inset 150px 450px rgba(31, 95, 114, 0.747);
     transition: 0.5s;
 }
@@ -177,9 +41,6 @@ section .first-row
     color: darkslategray;
 }
 
-.footer {
-    display: flex;
-}
 
 /* img sources for each of the tiles. and hover effect*/
 #laptop {
